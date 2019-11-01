@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaVMStackOOM",
+            "request": "launch",
+            "mainClass": "JavaVMStackOOM",
+            "vmArgs": "-Xss10m -Xms30g -Xmx30g"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaVMStackSOF",
+            "request": "launch",
+            "mainClass": "JavaVMStackSOF",
+            "vmArgs": "-Xss180k"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HeapOOM",
+            "request": "launch",
+            "mainClass": "HeapOOM",
+            "vmArgs": "-Xss180k"
+        }
+    ]
+}
